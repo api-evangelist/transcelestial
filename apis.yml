@@ -1,8 +1,26 @@
 aid: transcelestial
 name: Transcelestial
-description: Transcelestial is a company surfaced as a portfolio company of 500-global, partech and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Transcelestial is a Singapore-based wireless laser communications company building CENTAURI,
+  a line of compact free-space optical (laser) devices that deliver high-speed, low-latency
+  connectivity of up to 25 Gbps as a rapid-to-deploy alternative to fiber and RF backhaul.
+  CENTAURI links buildings, cell towers, and street-level infrastructure, and the company is
+  extending its optical network toward LEO satellites for global inter-continental connectivity.
+  Each CENTAURI device exposes an on-device RESTful management API (over HTTPS with token-based
+  authentication) alongside SNMP monitoring and a device CLI for configuration and deployment.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://transcelestial.com/wp-content/uploads/2022/08/logo_white.svg
 url: https://raw.githubusercontent.com/api-evangelist/transcelestial/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Laser Communications
+- Free-Space Optics
+- Wireless
+- Connectivity
+- Backhaul
+- Telecommunications
+- Networking
+- Satellite
+- Device Management
+apis:
+- name: CENTAURI Management API
+  description: >-
+    On-device RESTful management API served by each CENTAURI wireless laser device over HTTPS
+    with token-based authentication. Used to view and modify device configuration, alignment,
+    and monitoring settings. The base URL is device-local (per-appliance, not a public cloud
+    endpoint), so no public production host is published.
+  humanURL: https://support.transcelestial.com/support/solutions/articles/51000235505-centauri-product-manual
+  tags:
+  - Device Management
+  - Configuration
+  - Monitoring
+  properties:
+  - type: Documentation
+    url: https://support.transcelestial.com/support/solutions/articles/51000235505-centauri-product-manual
+  - type: Authentication
+    url: authentication/transcelestial-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +68,28 @@ maintainers:
 common:
 - type: Website
   url: https://transcelestial.com
+- type: Documentation
+  url: https://support.transcelestial.com/support/solutions/articles/51000235505-centauri-product-manual
+- type: Support
+  url: https://support.transcelestial.com
+- type: HelpCenter
+  url: https://support.transcelestial.com
+- type: Blog
+  url: https://transcelestial.com/news/
+- type: ChangeLog
+  url: https://support.transcelestial.com/support/solutions/articles/51000287514-centauri-software-release-notes
+- type: PrivacyPolicy
+  url: https://transcelestial.com/privacy-policy
+- type: TermsOfService
+  url: https://transcelestial.com/terms
+- type: Authentication
+  url: authentication/transcelestial-authentication.yml
+- type: CLI
+  url: cli/transcelestial-cli.yml
+- type: DomainSecurity
+  url: security/transcelestial-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

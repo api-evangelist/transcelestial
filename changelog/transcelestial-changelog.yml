@@ -1,0 +1,52 @@
+generated: '2026-07-21'
+method: searched
+source: https://support.transcelestial.com/support/solutions/articles/51000287514-centauri-software-release-notes
+scheme: semver
+scheme_notes: >-
+  CENTAURI device software uses semantic versioning (MAJOR.MINOR.PATCH). Releases are labeled
+  [Major] or [Patch] and published per version in the Transcelestial support portal. Each version
+  line (e.g. 5.27.x) has its own dated release-notes article covering APIs, UI/DMD, SNMP, CLI,
+  and hardware.
+current_version: 5.27.1
+entries:
+- version: 5.27.1
+  date: '2025-10-29'
+  type: patch
+  highlights:
+  - Fixed external SFP signal strength measurements
+  - Addressed rare pointing and tracking failures
+- version: 5.27.0
+  date: '2025-10-17'
+  type: minor
+  highlights:
+  - 'API: fixed error code appearing when Fluent Bit is disabled; added CENTAURI+ support'
+  - 'UI/DMD: streamlined device alignment checks and enhanced beacon frequency display'
+  - 'SNMP: added new OIDs for external SFP and traps, software version, sysObjectID'
+  - 'CLI: enhanced credential management and VLAN configuration for CENTAURI+'
+  - 'Hardware: support for Rev K hardware'
+- version: 5.20.0
+  date: '2024-11-06'
+  type: minor
+- version: 5.15.0
+  date: '2024-06-13'
+  type: minor
+- version: 5.14.0
+  date: '2024-04-22'
+  type: minor
+- version: 5.13.0
+  date: '2024-03-07'
+  type: minor
+- version: 5.12.0
+  date: '2024-01-07'
+  type: minor
+- version: 5.0
+  date: '2023-07-01'
+  type: major
+- version: 4.2
+  date: '2023-02-07'
+  type: minor
+- version: '4.0'
+  date: '2022-05-09'
+  type: major
+  highlights:
+  - APIs updated to use HTTP/2 with HTTPS

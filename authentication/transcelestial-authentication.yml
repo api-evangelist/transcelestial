@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://support.transcelestial.com/support/solutions/articles/51000334340-centauri-connectivity-requirements
+docs: https://support.transcelestial.com/support/solutions/articles/51000235505-centauri-product-manual
+summary:
+  types:
+  - http
+  api_key_in: []
+  oauth2_flows: []
+  notes: >-
+    The CENTAURI Management API and Management UI are served on-device over HTTPS and require
+    authenticated access using token-based authentication. No OpenAPI/Swagger specification is
+    published, so this profile is derived from the CENTAURI support documentation rather than a
+    machine-readable security scheme.
+schemes:
+- name: token
+  type: http
+  scheme: bearer
+  transport: https
+  description: >-
+    Token-based authentication over HTTPS for the CENTAURI device RESTful management API and
+    Management UI. A per-device token authorizes viewing and modifying detailed configuration
+    settings on the CENTAURI appliance.
+  sources:
+  - https://support.transcelestial.com/support/solutions/articles/51000334340-centauri-connectivity-requirements

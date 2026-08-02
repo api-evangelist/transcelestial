@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://support.transcelestial.com/support/solutions/articles/51000507534-centauri-5-27-x-release-notes
+docs: https://support.transcelestial.com/support/solutions/articles/51000235505-centauri-product-manual
+name: CENTAURI CLI Tool
+description: >-
+  On-device command-line tool for configuring and managing CENTAURI wireless laser devices.
+  Documented in the CENTAURI product manual and release notes; runs against the device rather
+  than a public cloud service. No public package/binary is distributed through language
+  registries, so it is catalogued here as a command surface only.
+distribution: on-device
+command_groups:
+- name: credentials
+  description: Credential management for the device (enhanced for CENTAURI+ in 5.27.0).
+- name: vlan
+  description: VLAN configuration for the device (extended for CENTAURI+ in 5.27.0).
+notes: >-
+  Command surface is derived from published CENTAURI release notes and the product manual;
+  Transcelestial does not publish a standalone CLI reference or downloadable binary in a public
+  package registry.
