@@ -8,6 +8,17 @@ description: >-
   extending its optical network toward LEO satellites for global inter-continental connectivity.
   Each CENTAURI device exposes an on-device RESTful management API (over HTTPS with token-based
   authentication) alongside SNMP monitoring and a device CLI for configuration and deployment.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
