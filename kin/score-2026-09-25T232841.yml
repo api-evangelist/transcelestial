@@ -1,21 +1,19 @@
-# Kin Score artifact — transcelestial — 2026-08-27T132314
+# Kin Score artifact — transcelestial — 2026-09-25T232841
 # The API Evangelist rating (https://github.com/api-evangelist/kin-score). Generated; do not edit.
 ---
 kin_score:
   slug: transcelestial
-  schema_version: 0.15.1
-  scored_at: '2026-08-27'
-  run_ts: 2026-08-27T132314
-  composite: 19.1
+  schema_version: 0.23.0
+  scored_at: '2026-09-25'
+  run_ts: 2026-09-25T232841
+  composite: 18.6
   band: emerging
   facets:
-    discoverability: 59.3
+    discoverability: 57.1
     contract_quality: 0.0
-    governance: 0.0
+    contract_governance: 0.0
     operational_transparency: 15.8
     developer_ergonomics: 35.7
-    commercial_clarity: 21.1
-    contract_governance: 0.0
     access_clarity: 21.1
   agent_readiness:
     score: 2.5
@@ -44,5 +42,5 @@ kin_score:
     applies: true
     regime: Telecommunications
     regime_id: telecommunications
-    score: 27.8
+    score: 16.7
     matched_via: tags
